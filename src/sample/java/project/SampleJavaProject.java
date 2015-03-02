@@ -9,13 +9,15 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
 
+// Comment added by Keyur
+
 /**
  * The main class of the application. It contains the main() method,
  * the first method called.
  */
 @NoArgsConstructor
 @AllArgsConstructor
-public class SampleJavaProject implements Runnable {
+public class SampleJavaProject implements Runnable { 
 
     /** The delay between printed messages. */
     private static final long PRINT_DELAY = 1000L;
